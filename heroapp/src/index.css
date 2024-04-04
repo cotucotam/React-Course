@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Bebas_Neue';
+  src: local('Bebas_Neue'), url(./font/Bebas_Neue,Lobster/Bebas_Neue/BebasNeue-Regular.ttf) format('opentype');
+}
+@font-face {
+  font-family: 'Lobster';
+  src: local('Lobster'), url(./font/Bebas_Neue,Lobster/Lobster/Lobster-Regular.ttf) format('opentype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Lobster', sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  box-sizing: border-box;
+}
+nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0,0,0,0.5);
+}
+.nav--logo{
+  max-width: 100px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+}
+.hero--photo{
+  max-width: 400px;
+  align-self: center;
+}
+.hero--header{
+  margin-bottom: 16px;
+}
+.hero--text{
+  margin: 0;
+}
+.card{
+  width: 175px;
+  font-size: 12px;
+  font-family: 'Bebas_Neue', sans-serif;
+  flex:0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.card--image{
+  width: 100%;
+  height: 250px;
+  border-radius: 9px;
+}
+.card-stats{
+  display: flex;
+  align-items: center;
+}
+.card-stat{
+  height: 14px;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+.card--badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+.gray{
+  color: #918E9B;
+}
+.bold{
+  font-weight: bold;
+}
+section{
+  padding: 20px;
+}

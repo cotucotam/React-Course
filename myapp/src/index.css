@@ -1,0 +1,87 @@
+body {
+  margin: 100;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background-color: bisque;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  height: 30px;
+  padding: 30px 25px;
+}
+nav > h3 >, nav >h4{
+  margin: 0;
+}
+nav > h3{
+  margin-right: auto;
+  color: aqua;
+  font-weight: 700;
+  font-size: 22px;
+}
+nav > img{
+  height: 30px;
+  margin-right: auto;
+}
+.nav--logo_text, .nav--title{
+  margin: 0;
+}
+.nav--logo_text{
+  margin-right: auto;
+  color: aquamarine;
+  font-weight: 700;
+  font-size: 22px;
+}
+.nav--title{
+  color: aquamarine;
+  font-weight: 600;
+}
+.nav--icon{
+  height: 30px;
+  margin-right: 7px;
+}
+main{
+  padding: 57px 27px;
+  color: white;
+  background-image: url(./components/logo512.png);
+  background-repeat: no-repeat;
+  background-position: 75%;
+}
+h1{
+  margin: 0;
+}
+.main--title{
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: 0.05em;
+  font-family: inherit;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 39.06px;
+  line-height: 47px ;
+}
+.main--fact{
+  margin-top: 46px;
+  max-width: 500px;
+}
+.main--fact >li{
+  margin-top: 46px;
+  padding-block: 10px;
+}
+.main--fact > li::marker{
+  font-size: 1.4rem;
+  color: aquamarine;
+}

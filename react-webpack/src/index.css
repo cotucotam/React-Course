@@ -1,0 +1,6 @@
+
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+.nav-items{
+    list-style: none;
+}
